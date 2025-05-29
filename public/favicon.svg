@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#e0f2fe"/>
+  <!-- Snake body -->
+  <path d="M16 48 Q32 56 48 40 Q56 32 40 24 Q24 16 24 32 Q24 40 32 40 Q40 40 40 32" fill="none" stroke="#16a34a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Snake head -->
+  <ellipse cx="48" cy="40" rx="7" ry="6" fill="#22c55e" stroke="#059669" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="51" cy="38" r="1.2" fill="#fff"/>
+  <circle cx="45" cy="38" r="1.2" fill="#fff"/>
+  <circle cx="51" cy="38" r="0.6" fill="#222"/>
+  <circle cx="45" cy="38" r="0.6" fill="#222"/>
+  <!-- Smiling mouth -->
+  <path d="M46 43 Q48 45 50 43" stroke="#222" stroke-width="1.2" fill="none"/>
+  <!-- Kippah (Jewish cap) -->
+  <ellipse cx="48" cy="35" rx="3.5" ry="1.2" fill="#2563eb" stroke="#1e40af" stroke-width="0.8"/>
+  <!-- Star of David -->
+  <g transform="translate(16,16) scale(0.7)">
+    <polygon points="8,0 16,14 0,14" fill="none" stroke="#1e40af" stroke-width="1.2"/>
+    <polygon points="8,16 16,2 0,2" fill="none" stroke="#1e40af" stroke-width="1.2"/>
+  </g>
+</svg>

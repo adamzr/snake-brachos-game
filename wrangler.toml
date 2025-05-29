@@ -3,8 +3,6 @@ name = "kosher-snake-game"
 main = "_worker.js"
 compatibility_date = "2024-05-29" # It's good practice to set this to the date you develop/deploy.
 
-# If you were serving static assets from a directory (e.g., "./public"), you'd uncomment this:
-# [site]
-# bucket = "./public"
-
-# For this setup, the HTML/JS/CSS will be embedded in the _worker.js, so no [site] config is strictly needed.
+[assets]
+directory = "public" # This is where your static files are located.
+binding = "ASSETS"

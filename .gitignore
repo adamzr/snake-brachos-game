@@ -27,3 +27,4 @@ coverage/
 # Optional: Ignore package-lock or yarn.lock if not using
 # package-lock.json
 # yarn.lock
+.wrangler/
