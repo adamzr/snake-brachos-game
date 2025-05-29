@@ -1,0 +1,14 @@
+{
+  "name": "snake-brachos-game",
+  "version": "1.0.0",
+  "description": "A kosher snake game",
+  "main": "_worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Rich",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^4.18.0"
+  }
+}
